@@ -1,0 +1,61 @@
+body{
+    background-color: #21023f;
+}
+h1,h2{
+    font-family: ubuntu;
+    color: #bb8beb9d;
+    text-shadow: 2px 2px 2px white;
+}
+#keyboard{
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.247);
+    box-shadow: 5px 5px 40px inset rgba(255, 255, 255, 0.295);
+    outline: 1px solid rgba(255, 255, 255, 0.473);
+    width: 750px;
+    height: 250px;
+    justify-content: space-evenly;
+    /* gap: 20px; */
+}
+.rows{
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.keys button{
+    color: rgba(255, 255, 255, 0.658);
+    font-family: ubuntu;
+    background-color: rgba(255, 255, 255, 0.164);
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    transition: .3s ease;
+}
+.keys button:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.568);
+}
+#name{
+    height: 70px;
+    width: 400px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    border-radius: 50px;
+    border-style: double;
+    border-color: rgba(255, 255, 255, 0.247);
+    box-shadow: 2px 2px 30px inset rgba(255, 255, 255, 0.295);
+    outline: 1px solid rgba(255, 255, 255, 0.473);
+}   
+#name p{
+    font-family: ubuntu;
+    color: #fdfdfd9c;
+    font-size: 18px;
+    padding-top: 7px;
+}
